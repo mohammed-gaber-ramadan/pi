@@ -9,4 +9,5 @@ else
 fi
 
 # docker image push sixeyed/pi-psod
-docker image push eljoker2k/pi-psod  
+docker image push eljoker2k/pi-psod
+
