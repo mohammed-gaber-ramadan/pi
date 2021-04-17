@@ -15,7 +15,7 @@ pipeline {
         stage('Publish test results') {
             steps {
                 sh '''
-                  id=$(docker container create sixeyed/pi-psod)
+                  id=$(docker container create eljoker2k/pi-psod)
                   docker cp $id:/app/test-results/ .
                   docker container rm -f $id
                 '''
